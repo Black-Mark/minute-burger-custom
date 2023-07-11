@@ -1,0 +1,1146 @@
+<!--Jeshua Mark S. Bay (BSIT 2-4)-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Minute Burger Website</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Online -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<!-- Offline CSS Only-->
+	<link rel="stylesheet" type="text/css" href="modules/css/bootstrap.min.css">
+	<script src="modules/js/jquery.min.js"></script>
+	<script src="modules/js/popper.min.js"></script>
+	<script src="modules/js/bootstrap.min.js"></script>
+
+	<style type="text/css">
+		.page-holder {
+			min-height: 100vh;
+		}
+
+		.bg-cover {
+			background-size: cover !important;
+		}
+	</style>
+</head>
+
+<body>
+	<a name="home"></a>
+	<div style="background: url(assets/bg-main.png)" class="page-holder bg-cover">
+		<nav class="navbar navbar-expand-sm bg-warning navbar-warning fixed-top">
+			<a class="navbar-brand" href="index.html"><img src="assets/minute-logo.png" alt="logo"
+					style="width:50px;"></a>
+			<ul class="navbar-nav mr-auto mt-2 mt-lg-0" role="tablist">
+				<li class="nav-item">
+					<a class="nav-link btn btn-success text-white" href="#home">Home</a>
+				</li>
+				<!-- Dropdown -->
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle text-dark btn" id="navbardrop" data-toggle="dropdown">
+						About
+					</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#mandate">Mandate, Vision and Mission</a>
+						<a class="dropdown-item" href="#history">History</a>
+						<a class="dropdown-item" href="#contact">Contact and Directory</a>
+						<a class="dropdown-item" href="#board">Board of Regents</a>
+					</div>
+				</li>
+			</ul>
+			<div style="padding: 5px;">
+				<span><a href="pages/Business Person Login.html" class="btn btn-success">Login</a></span>
+				<span><a href="pages/Business Person Register.html" class="btn btn-success">Register</a></span>
+			</div>
+			<form class="form-inline" action="#">
+				<input class="form-control mr-sm-2" type="text" placeholder="Search">
+				<button class="btn btn-success" type="submit">Search</button>
+			</form>
+		</nav><br><br>
+		<div class="container">
+			<div class="float-left">
+				<br><br><br>
+				<div id="demo1" class="carousel slide" data-ride="carousel">
+					<ul class="carousel-indicators">
+						<li data-target="#demo1" data-slide-to="0" class="active"></li>
+						<li data-target="#demo1" data-slide-to="1"></li>
+						<li data-target="#demo1" data-slide-to="2"></li>
+						<li data-target="#demo1" data-slide-to="3"></li>
+						<li data-target="#demo1" data-slide-to="4"></li>
+						<li data-target="#demo1" data-slide-to="5"></li>
+						<li data-target="#demo1" data-slide-to="6"></li>
+					</ul>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="assets/store.png" class="mx-auto d-block rounded" width="400" height="400">
+							<div class="carousel-caption">
+								<marquee scrollmount="4">
+									<h3>Come to Minute Burger!!!</h3>
+								</marquee>
+								<p></p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="assets/2.jpg" class="mx-auto d-block rounded" width="400" height="400">
+							<div class="carousel-caption">
+								<h3></h3>
+								<p></p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="assets/3.jpg" class="mx-auto d-block rounded" width="400" height="400">
+							<div class="carousel-caption">
+								<h3></h3>
+								<p></p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="assets/4.jpg" class="mx-auto d-block rounded" width="400" height="400">
+							<div class="carousel-caption">
+								<h3></h3>
+								<p></p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="assets/5.jpg" class="mx-auto d-block rounded" width="400" height="400">
+							<div class="carousel-caption">
+								<h3></h3>
+								<p></p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="assets/6.jpg" class="mx-auto d-block rounded" width="400" height="400">
+							<div class="carousel-caption">
+								<h3></h3>
+								<p></p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="assets/7.jpg" class="mx-auto d-block rounded" width="400" height="400">
+							<div class="carousel-caption">
+								<h3></h3>
+								<p></p>
+							</div>
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#demo1" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</a>
+					<a class="carousel-control-next" href="#demo1" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</a>
+				</div>
+			</div>
+			<div class="float-right">
+				<br><br><br><br><br>
+				<iframe src="https://www.youtube.com/embed/xesmijAmQZQ" title="YouTube video player" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen width="500px" height="310px"></iframe>
+			</div>
+		</div>
+		<nav class="fixed-bottom">
+			<div class="float-right">
+				<h1 style="padding: 10px;"><a href="#foodmenu" class="btn btn-success">CHECK OUR FOOD MENU >></a></h1>
+			</div>
+		</nav>
+	</div>
+
+	<div style="background: url(assets/bg-main.png)" class="page-holder bg-cover">
+		<a name="mandate"></a><br><br>
+		<div class="container pt-5 text-center">
+			<h1><span class="badge badge-danger">MANDATE</span></h1>
+			<p class="bg-light img-thumbnail">Minute Burger’s marketing support provides local store marketing
+				opportunities and introduces new products that capture the hearts of our customers. Minute Burger’s
+				guidelines and procedures are easy to follow and they always make sure that the products we order are
+				delivered to us in good condition and quality.</p>
+			<h1><span class="badge badge-danger">MISSION</span></h1>
+			<p class="bg-light img-thumbnail">Minute burger aims to bring and create a constructive and good customer
+				experience.</p>
+			<h1><span class="badge badge-danger">VISION</span></h1>
+			<p class="bg-light img-thumbnail">Minute Burger aims to be a Quick Service Food Chain of Choice for
+				value-conscious consumers.</p>
+			<p class="bg-light img-thumbnail">To create a memorable experience.</p>
+			<p class="bg-light img-thumbnail">To achieve local and international expansion and growth.</p>
+			<p class="bg-light img-thumbnail">To meet environmentally sustainable food products and services.</p>
+		</div>
+	</div>
+
+	<div style="background: url(assets/bg-main.png)" class="page-holder bg-cover">
+		<a name="history"></a><br><br>
+		<div class="container pt-5">
+			<center class="bg-info text-white">
+				<h1>HISTORY</h1>
+			</center>
+			<div class="bg-light" style="font-size: 15px;">
+				<p>For over 30 years, our stores have been serving customers with delicious and affordable products.
+					Since 2003, Minute Burger has been a recognizable, stable and profitable franchise business for many
+					of our franchisees. Our greatest strengths as a franchise are our Brand, our System and our
+					Franchisor Support.</p>
+				<p>Minute Burger as a brand is more than just the logo. For the last 30 years, we’ve stood by our belief
+					of always providing our customers with affordable and quality products, which are served in clean
+					and well-made stores. Our innovation is spearheaded by our product development teams and engineering
+					teams who make sure that our products and our stores are always updated and ahead of the curve.</p>
+				<p>At Minute Burger, we take quality very seriously. It is not easy to produce quality products at
+					affordable prices, but we work hard to make it happen. We manufacture all our products ourselves in
+					state-of-the-art commissaries and we ensure that all the ingredients used in our products are
+					NMIS-certified and BFAD-approved.</p>
+				<p>We have products that have been a hit for many years, but we don’t stop there. As a brand, and as an
+					organization, we are committed to constant product development and improvement. Since 1982, we have
+					changed our standard store to adapt to the market’s current trends. Today, our updated standards for
+					the storefront look reflects our commitment to stay relevant and ahead in today’s constantly
+					changing, competitive environment. A dedicated team of experts visits each of our Franchisee’s
+					stores almost weekly, to enforce and maintain our standards throughout our network.</p>
+				<p>We built simplicity and efficiency into our ordering and delivery system. We have a dedicated team of
+					highly qualified manufacturing, quality and logistics personnel who take care of producing and
+					delivering our products to your store so that you don’t have to. Our nationwide delivery system has
+					commissaries and warehouses strategically located across the country. It allows us to deliver
+					patties and freshly baked bread to our stores three times a week. Near-daily deliveries to our
+					franchisee’s stores allows them to carry only the freshest products to serve to our customers.</p>
+				<p>We're firm believers in technology and automation and we’ve integrated this into every step of the
+					process. It’s this effective mix of team and technology that allows us to deliver stocks to our
+					network within 12 to 16 hours of placing the orders (if the order is placed within the ordering
+					window).</p>
+			</div>
+		</div>
+	</div>
+
+	<div style="background: url(assets/bg-main.png)" class="page-holder bg-cover">
+		<a name="contact"></a><br><br><br>
+		<div class="container pt-5">
+			<center>
+				<h1 class="bg-success text-white">CONTACT AND DIRECTORY</h1>
+			</center>
+		</div>
+		<div class="container text-center">
+			<div class="card">
+				<div class="card-header">
+					<div class="card-text">
+						<b>Franchise Contact Details</b>
+					</div>
+				</div>
+				<div class="card-body">
+					<div class="card-text text-center">
+						<ul class="nav nav-tabs justify-content-center" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link active" data-toggle="tab" href="#home_tab">Phone/Mobile Number</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" data-toggle="tab" href="#menu1_tab">Email Address</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" data-toggle="tab" href="#menu2_tab">Website</a>
+							</li>
+						</ul>
+						<div class="tab-content">
+							<div id="home_tab" class="container tab-pane active"><br>
+								<p>02776-7740</p>
+							</div>
+							<div id="menu1_tab" class="container tab-pane fade"><br>
+								<p>info@minuteburger.com</p>
+							</div>
+							<div id="menu2_tab" class="container tab-pane fade"><br>
+								<p>www.minuteburger.com</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header">
+					<div class="card-text">
+						<b>Franchise Business Address</b>
+					</div>
+				</div>
+				<div class="card-body">
+					<div class="card-text">
+						<p>4 Dama de Noche St. UPS 4</p>
+						<p>Paranaque City, Philippines</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="background: url(assets/regents.jpg)" class="page-holder bg-cover">
+		<a name="board"></a><br><br><br>
+		<div class="container pt-5 text-white">
+			<center>
+				<h1 class="bg-primary"><strong>BOARD OF REGENTS</strong></h1>
+			</center>
+		</div>
+	</div>
+
+	<div
+		style="background: url(assets/bg-main.png); background-position: center; background-repeat: no-repeat; background-attachment: fixed; background-size:100% 100vh;">
+		<a name="foodmenu"></a><br><br><br>
+		<div class="container bg-danger text-white">
+			<center>
+				<h1>Food Menu</h1>
+			</center>
+		</div>
+
+		<div class="jumbotron container pt-3 my-3 bg-white" style="font-size: 15px;">
+			<ul class="nav nav-pills" role="tablist">
+				<li class="nav-item">
+					<a class="nav-link active" data-toggle="pill" href="#BigTime">BigTime</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="pill" href="#Sulit">Sulit</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="pill" href="#Chicken">Chicken</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="pill" href="#Hotdog">Hotdog</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="pill" href="#Beverages">Beverages</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="pill" href="#Sides">Sides</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="pill" href="#FamilyBundles">Family Bundles</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="pill" href="#SulitBundles">Sulit Bundles</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="pill" href="#MasSulitBundles">Mas Sulit Bundles</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="pill" href="#PinakaSulitBundles">Pinaka Sulit Bundles</a>
+				</li>
+			</ul>
+			<div class="tab-content">
+				<div id="BigTime" class="container tab-pane active"><br>
+					<div class="card-columns text-center">
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Bacon Cheese Burger</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/bacon-cheese-burger.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">
+									Irresistible Bacon Cheese Burger with Double Bacon in premium Brioche Bun with real
+									butter and eggs <strong class="float-right"><a href="#" class="btn btn-success"
+											title="Place Order">+</a> P79</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Black Pepper Burger</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/black-pepper-burger.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">Savory grilled taste of spiced premium beef in premium Brioche
+									Bun with real butter and eggs<strong class="float-right"><a href="#"
+											class="btn btn-success" title="Place Order">+</a> P72</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Beef Pizza Burger</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/beef-pizza-burger.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">Have it Italian-style with our premium beef patty made
+									exquisitely flavorful with spiced ham, bacon bits, ground beef and deliciously
+									crafted pizza cheese sauce, all between oatmeal-sprinkled brioche buns<strong
+										class="float-right"><a href="#" class="btn btn-success"
+											title="Place Order">+</a> P76</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Veggie Chicken Burger</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/veggie-chicken-burger.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">Savor the rich taste of 50% premium chicken and 50% blend of
+									fresh vegetables, with honey mustard sauce topped with shredded cabbage, all between
+									our signature oatmeal-sprinkled brioche buns<strong class="float-right"><a href="#"
+											class="btn btn-success" title="Place Order">+</a> P70</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Baconnaise Crispy Chicken</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/baconnaise-crispy-chicken.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">A unique tandem of special mayonnaise fused with bacon bits and
+									tender chicken patty, our Buy One, Take Baconnaise Chicken Burger is a lightweight
+									entrée that’s packing a whole world of flavor<strong class="float-right"><a href="#"
+											class="btn btn-success" title="Place Order">+</a> P75</strong>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="Sulit" class="container tab-pane"><br>
+					<div class="card-columns text-center">
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Minute Burger</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/minute-burger.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">Classic taste of beef burger patty with signature Minute Burger
+									super dressing on a soft burger bun<strong class="float-right"><a href="#"
+											class="btn btn-success" title="Place Order">+</a> P36</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Double Minute Burger</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/double-minute-burger.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">Savor with double signature beef patty with our own Minute Burger
+									super dressing on a soft burger bun<strong class="float-right"><a href="#"
+											class="btn btn-success" title="Place Order">+</a> P52</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Cheesy Burger</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/cheesy-burger.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">Beef patty topped with special cheese with ham flavor, Buy One
+									Take One. Cheesy burger is a cheesier classic sandwich<strong class="float-right"><a
+											href="#" class="btn btn-success" title="Place Order">+</a> P44</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Double Cheesy Burger</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/double-cheesy-burger.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">Two Cheesy Burger in one, our Buy One, Take One Double Cheesy
+									Burger is the developed version of Cheesy Burger - Cheesier with Ham flavor<strong
+										class="float-right"><a href="#" class="btn btn-success"
+											title="Place Order">+</a> P66</strong>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="Chicken" class="container tab-pane"><br>
+					<div class="card-columns text-center">
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Chicken Time</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/chicken-time.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">Mouth-watering chicken patty with signature chicken
+									dressing<strong class="float-right"><a href="#" class="btn btn-success"
+											title="Place Order">+</a> P40</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Double Chicken Time</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/double-chicken-time.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">Have it with double prime taste of signature chicken patty topped
+									with chicken dressing<strong class="float-right"><a href="#" class="btn btn-success"
+											title="Place Order">+</a> P56</strong>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="Hotdog" class="container tab-pane"><br>
+					<div class="card-columns text-center">
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Cheesy Dog</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/cheesy-dog.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">Tender flavor with our signature hotdog in between of soft and
+									delicious hotdog buns<strong class="float-right"><a href="#" class="btn btn-success"
+											title="Place Order">+</a> P41</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Bacon Cheese Franks</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/bacon-cheese-franks.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">Delightfully German-style with our 7 inches Big time Franks
+									crafted flavorsome with signature franks sauce and delicately chopped bacon bits,
+									all between our signature oatmeal hotdog buns<strong class="float-right"><a href="#"
+											class="btn btn-success" title="Place Order">+</a> P73</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Chili Con Cheese Franks</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/chili-con-cheese-franks.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">Loaded with Mexican-flavor of chili con carne with our 7 inches
+									big time franks well made with chili cheese sauce, all between our signature hotdog
+									buns<strong class="float-right"><a href="#" class="btn btn-success"
+											title="Place Order">+</a> P74</strong>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="Beverages" class="container tab-pane"><br>
+					<div class="card-columns text-center">
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Calamantea</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/calamantea.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">Fulfill your thirst with our signature calamansi and iced tea in
+									one<strong class="float-right"><a href="#" class="btn btn-success"
+											title="Place Order">+</a> P20</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Frutwist</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src=frutwist.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">Experienced the four season goodness with our MB style
+									Frutwist<strong class="float-right"><a href="#" class="btn btn-success"
+											title="Place Order">+</a> P20</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Iced Choco</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/iced-choco.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">A refreshing iced chocolate drink, a perfect milkshake-like
+									drink.<strong class="float-right"><a href="#" class="btn btn-success"
+											title="Place Order">+</a> P23</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Hot Choco</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/hot-choco.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">Creamy Cocoa taste of our classic hot choco<strong
+										class="float-right"><a href="#" class="btn btn-success"
+											title="Place Order">+</a> P13</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Hot Coffee</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/hot-coffee.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">Keep the warm and sip with our signature coffee<strong
+										class="float-right"><a href="#" class="btn btn-success"
+											title="Place Order">+</a> P13</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Mineral Water</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/mineral-water.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">Quench your thirst with MB Natural Mineral Water from the maker
+									of Buy One Take One Burgers<strong class="float-right"><a href="#"
+											class="btn btn-success" title="Place Order">+</a> P16</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Krazy Wintermelon Milk Tea</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/krazy-wintermelon-milk-tea.png"
+										alt="Image" style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">12oz Wintermelon Milk Tea<strong class="float-right"><a href="#"
+											class="btn btn-success" title="Place Order">+</a> P28</strong>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="Sides" class="container tab-pane"><br>
+					<div class="card-columns text-center">
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Cheesy Carne Nachos</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/cheesy-carne-nachos.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">Crunchy Nacho chips topped with Chili con carne and cheesy sauce.
+									Best side item for your favorite MB Bigtime, Value Burger, and Hotdog
+									Sandwiches<strong class="float-right"><a href="#" class="btn btn-success"
+											title="Place Order">+</a> P47</strong>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="FamilyBundles" class="container tab-pane"><br>
+					<div class="card-columns text-center">
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Bunsulit Bundle</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/bunsulit-bundle.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">Basic meal bundle of 2 pcs. Minute Burger + 2 pcs. of Cheesydog
+									for any group looking for a SULIT deal. Includes 2 boxes of Cheesy Carne Nachos and
+									a choice of 4 cups of Calamantea or Frutwist<strong class="float-right"><a href="#"
+											class="btn btn-success" title="Place Order">+</a> P251</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Daddy's Best Bundle</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/daddys-best-bundle.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">A kingly feast fit for a group of four with 2 pcs. Black Pepper
+									Burger, 2 pcs. Chili Con Carne Cheese Franks plus 2 boxes of Cheesy Carne Nachos and
+									a choice of 4 cups of Calamantea or Frutwist<strong class="float-right"><a href="#"
+											class="btn btn-success" title="Place Order">+</a> P320</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Brodkada Bundle</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/brodkada-bundle.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">Fist bump and burp with the rest of the gang with 2 pcs. Ultimate
+									Bacon Cheeseburger + 2 pcs. Meatlovers Pizza Burger meal bundle. Includes two boxes
+									of Cheesy Carne Nachos and a choice of four cups of CalamanTea or FruTwist<strong
+										class="float-right"><a href="#" class="btn btn-success"
+											title="Place Order">+</a> P329</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Mommy's Best Bundle</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/mommys-best-bundle.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">Clear the table because it’s time to NOM-NOM with 2 pcs. Double
+									Minute Burger and 2 pcs. Double Chickentime plus 2 boxes of Cheesy Carne Nachos and
+									a choice of 4 cups of Calamantea or Frutwist<strong class="float-right"><a href="#"
+											class="btn btn-success" title="Place Order">+</a> P282</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Sissy Bundle</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/sissy-bundle.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">Meal bundle for the damsels with a bottomless appetite. Enjoy 2
+									pcs. of Baconnaise Crispy Chicken Burger + 2 pcs. of Bacon Cheese Franks with 2
+									boxes of Cheesy Carne Nachos and a choice of four cups of CalamanTea or
+									FruTwist<strong class="float-right"><a href="#" class="btn btn-success"
+											title="Place Order">+</a> P322</strong>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="SulitBundles" class="container tab-pane"><br>
+					<div class="card-columns text-center">
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Minute Burger w/ CalamanTea</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/minute-calamantea.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">.....<strong class="float-right"><a href="#"
+											class="btn btn-success" title="Place Order">+</a> P56</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Chicken Time w/ CalamanTea</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/chicken-calamantea.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">.....<strong class="float-right"><a href="#"
+											class="btn btn-success" title="Place Order">+</a> P60</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Double Minute Burger w/ CalamanTea</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/double-minute-calamantea.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">.....<strong class="float-right"><a href="#"
+											class="btn btn-success" title="Place Order">+</a> P72</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Double Chicken Time w/ CalamanTea</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/double-chicken-calamantea.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">.....<strong class="float-right"><a href="#"
+											class="btn btn-success" title="Place Order">+</a> P76</strong>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="MasSulitBundles" class="container tab-pane"><br>
+					<div class="card-columns text-center">
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Minute Burger w/ Nachos & CalamanTea</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/minute-calamantea-nachos.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">.....<strong class="float-right"><a href="#"
+											class="btn btn-success" title="Place Order">+</a> P103</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Chicken Time w/ Nachos & CalamanTea</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/chicken-calamantea-nachos.jpg" alt="Image"
+										style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">.....<strong class="float-right"><a href="#"
+											class="btn btn-success" title="Place Order">+</a> P107</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Double Minute Burger w/ Nachos & CalamanTea</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/double-minute-calamantea-nachos.jpg"
+										alt="Image" style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">.....<strong class="float-right"><a href="#"
+											class="btn btn-success" title="Place Order">+</a> P119</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Double Chicken Time w/ Nachos & CalamanTea</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/double-chicken-calamantea-nachos.jpg"
+										alt="Image" style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">.....<strong class="float-right"><a href="#"
+											class="btn btn-success" title="Place Order">+</a> P123</strong>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="PinakaSulitBundles" class="container tab-pane"><br>
+					<div class="card-columns text-center">
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Bacon Cheese Burger w/ Nachos & CalamanTea</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/bacon-cheese-calamantea-nachos.jpg"
+										alt="Image" style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">.....<strong class="float-right"><a href="#"
+											class="btn btn-success" title="Place Order">+</a> P146</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Black Pepper Burger w/ Nachos & CalamanTea</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/black-pepper-calamantea-nachos.jpg"
+										alt="Image" style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">.....<strong class="float-right"><a href="#"
+											class="btn btn-success" title="Place Order">+</a> P139</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Baconnaise Chicken Burger w/ Nachos & CalamanTea</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/baconnaise-chicken-calamantea-nachos.jpg"
+										alt="Image" style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">.....<strong class="float-right"><a href="#"
+											class="btn btn-success" title="Place Order">+</a> P142</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Meatlover's Pizza Burger w/ Nachos & CalamanTea</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/meatlover-calamantea-nachos.jpg"
+										alt="Image" style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">.....<strong class="float-right"><a href="#"
+											class="btn btn-success" title="Place Order">+</a> P143</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Chili con Carne w/ Nachos & CalamanTea</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/chili-con-carne-calamantea-nachos.jpg"
+										alt="Image" style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">.....<strong class="float-right"><a href="#"
+											class="btn btn-success" title="Place Order">+</a> P141</strong>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<div class="card-text">
+									<strong>Buy 1 Take 1 Bacon Cheese Franks w/ Nachos & CalamanTea</strong>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="card-text">
+									<img class="mx-auto d-block rounded" src="assets/bacon-cheese-franks-calamantea-nachos.jpg"
+										alt="Image" style="width: 100%">
+								</div>
+							</div>
+							<div class="card-footer">
+								<div class="card-text">.....<strong class="float-right"><a href="#"
+											class="btn btn-success" title="Place Order">+</a> P140</strong>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
+<!-- Sorry for not making it good due to some headache over 2 days -->

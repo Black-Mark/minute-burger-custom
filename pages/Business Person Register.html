@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Register - Minute Burger Account</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+</head>
+<body background="../assets/bg-main.png" style="background-position: center; background-repeat: no-repeat; background-attachment: fixed; background-size:100% 100vh;">
+	<div class="container">
+		<div class="row d-flex justify-content-center">
+			<div class="col-6">
+				<div class="card shadow mt-5">
+					<div class="text-center">
+						<a href="../index.html"><img class="my-3" style="width: 30%" src="../assets/minute-logo.png" alt="Minute Burger Logo"></a>
+					</div>
+					<div class="container">
+						<div class="login-form">
+							<form class="needs-validation">
+								<div class="input-group mb-3">
+								<div class="input-group-prepend">
+        							<span class="input-group-text">Name</span>
+      							</div>
+      							<input type="text" class="form-control" placeholder="First Name" required>
+      							<input type="text" class="form-control" placeholder="Last Name" required>
+    							</div>
+    							<div class="input-group mb-4">
+    								<div class="input-group-prepend">
+        								<span class="input-group-text">Gender</span>
+        							</div>
+    								<select class="form-control" name="sellist1" required>
+    									<option>Male</option>
+        								<option>Female</option>
+        								<option>Other</option>
+      								</select>
+									<div class="input-group-prepend">
+        								<span class="input-group-text">Age</span>
+        							</div>
+        							<input type="number" class="form-control" placeholder="Age" required>
+        						</div>
+        						<div class="input-group mb-3">
+									<div class="input-group-prepend">
+        								<span class="input-group-text">Home Address</span>
+      								</div>
+      								<input type="text" class="form-control" placeholder="This is where we will deliver your orders" required>
+      							</div>
+								<div class="form-group">
+									<label>Email address</label>
+									<input type="email" class="form-control" placeholder="Email" required>
+								</div>
+								<div class="form-group">
+									<label>Phone Number</label>
+									<input type="tel" class="form-control" placeholder="Phone Number" required>
+								</div>
+								<div class="form-group">
+									<label>Password</label>
+									<input type="password" class="form-control" placeholder="Password" required>
+								</div>
+								<div class="form-group">
+									<label>Re-Enter Password</label>
+									<input type="password" class="form-control" placeholder="Re-Enter Password" required>
+								</div>
+								<button type="submit" class="btn btn-success btn-block my-3">Register</button>
+								<div class="register-link m-t-15 text-center">
+									<p>Login into account? <a href="Business Person Login.html">Log In Here</a></p>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<script>
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    var forms = document.getElementsByClassName('needs-validation');
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+</body>
+</html>

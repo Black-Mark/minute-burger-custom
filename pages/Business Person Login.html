@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Log In - Minute Burger Account</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+</head>
+
+<body background="../assets/bg-main.png"
+	style="background-position: center; background-repeat: no-repeat; background-attachment: fixed; background-size:100% 100vh;">
+	<div class="container">
+		<div class="row d-flex justify-content-center">
+			<div class="col-6">
+				<div class="card shadow mt-5">
+					<div class="text-center">
+						<a href="../index.html"><img class="my-3" style="width: 30%" src="../assets/minute-logo.png"
+								alt="Minute Burger Logo"></a>
+					</div>
+					<div class="container">
+						<div class="login-form">
+							<form class="needs-validation">
+								<div class="form-group">
+									<label>Email address</label>
+									<input type="email" class="form-control" placeholder="Email" required>
+								</div>
+								<div class="form-group">
+									<label>Password</label>
+									<input type="password" class="form-control" placeholder="Password" required>
+								</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox"> Remember Me
+									</label>
+									<label class="float-right">
+										<a href="ForgotPassword.html">Forgot Password?</a>
+									</label>
+								</div>
+								<button type="submit" class="btn btn-success btn-block my-3">Sign in</button>
+								<div class="register-link m-t-15 text-center">
+									<p>Don't have account? <a href="Business Person Register.html">Sign Up Here</a></p>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		(function () {
+			'use strict';
+			window.addEventListener('load', function () {
+				var forms = document.getElementsByClassName('needs-validation');
+				var validation = Array.prototype.filter.call(forms, function (form) {
+					form.addEventListener('submit', function (event) {
+						if (form.checkValidity() === false) {
+							event.preventDefault();
+							event.stopPropagation();
+						}
+						form.classList.add('was-validated');
+					}, false);
+				});
+			}, false);
+		})();
+	</script>
+</body>
+
+</html>
